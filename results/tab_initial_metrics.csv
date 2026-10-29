@@ -1,0 +1,8 @@
+,accuracy,macro_precision,macro_recall,macro_f1,ovr_auc_macro,recall_neither,recall_loan_only,recall_card_only,recall_both,auc_neither,auc_loan_only,auc_card_only,auc_both
+Prior baseline,0.765,0.191,0.25,0.217,0.5,1.0,0.0,0.0,0.0,0.5,0.5,0.5,0.5
+ElasticNet LR,0.763,0.191,0.25,0.216,0.78,0.998,0.0,0.0,0.0,0.773,0.794,0.717,0.837
+LightGBM,0.763,0.401,0.268,0.254,0.763,0.987,0.072,0.012,0.0,0.743,0.734,0.735,0.839
+Cox (cause-specific),0.765,0.191,0.25,0.217,0.777,1.0,0.0,0.0,0.0,0.759,0.744,0.734,0.87
+RSF (cause-specific),0.765,0.191,0.25,0.217,0.809,1.0,0.0,0.0,0.0,0.785,0.799,0.763,0.889
+RMTPP-style (class head),0.765,0.191,0.25,0.217,0.762,1.0,0.0,0.0,0.0,0.768,0.798,0.675,0.808
+RMTPP-style (intensity head),0.765,0.191,0.25,0.217,0.774,1.0,0.0,0.0,0.0,0.767,0.794,0.7,0.834

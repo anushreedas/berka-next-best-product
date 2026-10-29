@@ -1,0 +1,9 @@
+,time-based split (primary),time-based split (primary),time-based split (primary),time-based split (primary),random stratified split (secondary),random stratified split (secondary),random stratified split (secondary),random stratified split (secondary)
+,macro_f1,ovr_auc_macro,loan_auc,card_auc,macro_f1,ovr_auc_macro,loan_auc,card_auc
+Prior baseline,0.217,0.5,0.5,0.5,0.231,0.5,0.5,0.5
+ElasticNet LR,0.216,0.78,0.807,0.749,0.243,0.777,0.805,0.719
+LightGBM,0.254,0.763,0.748,0.753,0.264,0.774,0.788,0.744
+Cox (cause-specific),0.217,0.777,0.768,0.761,0.244,0.786,0.786,0.765
+RSF (cause-specific),0.217,0.809,0.815,0.782,0.231,0.812,0.821,0.786
+RMTPP-style (class head),0.217,0.762,0.812,0.696,0.27,0.799,0.823,0.747
+RMTPP-style (intensity head),0.217,0.774,0.809,0.717,0.243,0.807,0.834,0.749

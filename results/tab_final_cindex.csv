@@ -1,0 +1,7 @@
+,loan,card
+Cox (initial),0.747,0.746
+Cox (tuned),0.779,0.757
+RSF (initial),0.791,0.766
+RSF (tuned),0.803,0.766
+RMTPP-style GRU (initial),0.794,0.706
+RMTPP-style GRU (tuned),0.793,0.699

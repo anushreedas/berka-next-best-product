@@ -1,0 +1,3 @@
+,accounts,share,neither %,loan_only %,card_only %,both %,both (n)
+train,3602,0.8,87.5,8.5,3.5,0.5,19
+test,701,0.2,76.5,9.8,11.7,2.0,14

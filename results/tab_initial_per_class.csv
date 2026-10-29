@@ -1,0 +1,9 @@
+,neither,neither,neither,loan_only,loan_only,loan_only,card_only,card_only,card_only,both,both,both
+,precision,recall,F1,precision,recall,F1,precision,recall,F1,precision,recall,F1
+Prior baseline,0.765,1.0,0.867,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ElasticNet LR,0.764,0.998,0.866,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+LightGBM,0.769,0.987,0.864,0.5,0.072,0.127,0.333,0.012,0.024,0.0,0.0,0.0
+Cox (cause-specific),0.765,1.0,0.867,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RSF (cause-specific),0.765,1.0,0.867,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RMTPP-style (class head),0.765,1.0,0.867,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+RMTPP-style (intensity head),0.765,1.0,0.867,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

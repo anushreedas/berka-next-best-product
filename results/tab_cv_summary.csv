@@ -1,0 +1,7 @@
+,CV PR-AUC initial,CV PR-AUC tuned,CV PR-AUC sd (folds),CV loan AUC,CV card AUC,OOF macro-F1 initial (argmax),OOF macro-F1 tuned (argmax),OOF macro-F1 tuned + rule*,w_loan,w_card
+ElasticNet LR,0.197,0.205,0.013,0.772,0.752,0.235,0.23,0.337,4.258,13.145
+LightGBM,0.183,0.21,0.001,0.768,0.774,0.248,0.23,0.348,6.684,23.096
+Cox,0.181,0.196,0.001,0.778,0.762,0.23,0.238,0.356,7.481,18.434
+RSF,0.201,0.218,0.012,0.778,0.785,0.23,0.23,0.35,3.036,11.743
+RMTPP-style GRU,0.215,0.216,0.005,0.793,0.745,0.243,0.236,0.329,5.334,20.634
+Ensemble,,0.219,0.001,0.79,0.79,,0.23,0.35,5.971,18.434

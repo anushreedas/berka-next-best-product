@@ -1,0 +1,4 @@
+,macro-F1 mean,macro AUC mean,loan PR-AUC mean,card PR-AUC mean,macro-F1 sd,macro AUC sd,loan PR-AUC sd,card PR-AUC sd
+LightGBM,0.399,0.79,0.384,0.324,0.0,0.0,0.0,0.0
+RSF,0.422,0.822,0.403,0.335,0.009,0.003,0.004,0.009
+RMTPP-style GRU,0.37,0.772,0.396,0.251,0.028,0.008,0.035,0.029

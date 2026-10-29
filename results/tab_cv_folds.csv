@@ -1,0 +1,3 @@
+,train accounts,validation accounts,validation years,val: loan within horizon (%),val: card within horizon (%),train: `both` (n),val: `both` (n)
+fold 1,1578,661,1995,9.2,4.5,1,7
+fold 2,2239,1363,1996,10.1,6.3,8,11

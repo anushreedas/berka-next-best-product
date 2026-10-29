@@ -1,0 +1,16 @@
+,LightGBM gain (%),permutation importance (drop in test macro AUC)
+bal_range,17.343,0.07
+amt_max,16.663,0.061
+cash_intensity,5.939,0.025
+share_cash_dep,4.847,0.018
+age_at_open,4.529,0.007
+income_vs_district,3.877,0.009
+gap_cv,3.527,0.002
+avg_credit,3.161,0.004
+large_txn_ratio,3.111,0.001
+amt_median,2.5,0.002
+unemp_change,2.478,-0.002
+income_to_balance,2.266,0.004
+interest_sum,2.228,0.001
+crime_rate96,2.15,0.005
+gap_std,2.102,-0.001

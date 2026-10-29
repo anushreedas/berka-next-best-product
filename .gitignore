@@ -1,0 +1,19 @@
+# OS & Archive Artifacts
+.DS_Store
+__MACOSX/
+._*
+*.pyc
+__pycache__/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Uncompressed raw dataset & intermediate caches (auto-generated from berka.zip / notebook run)
+berka/
+processed/
+opt_cache.pkl

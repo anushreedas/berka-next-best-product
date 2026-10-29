@@ -1,0 +1,88 @@
+{
+  "ElasticNet LR": {
+    "params": {
+      "C": 0.3,
+      "class_weight": null,
+      "l1_ratio": 0.85
+    },
+    "view": "base"
+  },
+  "LightGBM": {
+    "params": {
+      "subsample": 1.0,
+      "reg_lambda": 0,
+      "num_leaves": 31,
+      "n_estimators": 100,
+      "min_child_samples": 80,
+      "learning_rate": 0.01,
+      "colsample_bytree": 1.0,
+      "class_weight": null
+    },
+    "view": "eng"
+  },
+  "Cox": {
+    "params": {
+      "penalizer": 0.01
+    },
+    "view": "eng"
+  },
+  "RSF": {
+    "params": {
+      "max_features": 0.5,
+      "min_samples_leaf": 15,
+      "n_estimators": 200
+    },
+    "view": "top15"
+  },
+  "RMTPP-style GRU": {
+    "params": {
+      "hid": 32,
+      "drop": 0.4,
+      "wd": 1e-05,
+      "lr": 0.001,
+      "lam": 1.0,
+      "cw_power": 0.0
+    },
+    "view": "sequence + static"
+  },
+  "decision_weights": {
+    "ElasticNet LR": [
+      1.0,
+      4.3,
+      13.1,
+      56.33
+    ],
+    "LightGBM": [
+      1.0,
+      6.7,
+      23.1,
+      154.77
+    ],
+    "Cox": [
+      1.0,
+      7.5,
+      18.4,
+      138.0
+    ],
+    "RSF": [
+      1.0,
+      3.0,
+      11.7,
+      35.1
+    ],
+    "RMTPP-style GRU": [
+      1.0,
+      5.3,
+      20.6,
+      109.18
+    ],
+    "Ensemble": [
+      1.0,
+      6.0,
+      18.4,
+      110.4
+    ]
+  },
+  "head": "class",
+  "final_model_by_cv": "Ensemble"
+}
